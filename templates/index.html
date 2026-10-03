@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record Lookup | DAA Binary Search Project</title>
+    <meta name="description" content="College DAA Mini-Project demonstrating Binary Search on student records with step-by-step visualization and Linear Search comparison.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <div class="header-left">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="header-title">Student Record Lookup</h1>
+                    <p class="header-subtitle">DAA Project • Binary Search Demonstration</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <span class="status-indicator">
+                    <span class="status-dot"></span>
+                    System Online
+                </span>
+            </div>
+        </header>
+
+        <!-- Stats Section -->
+        <section class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">STUDENT RECORDS</div>
+                <div class="stat-value" id="stat-records">--</div>
+                <div class="stat-desc">Available records</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">ALGORITHM</div>
+                <div class="stat-value highlight-cyan">Binary Search</div>
+                <div class="stat-desc">Sorted data lookup</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">TIME COMPLEXITY</div>
+                <div class="stat-value highlight-purple">O(log n)</div>
+                <div class="stat-desc">Worst & Average case</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">SPACE COMPLEXITY</div>
+                <div class="stat-value highlight-green">O(1)</div>
+                <div class="stat-desc">Iterative implementation</div>
+            </div>
+        </section>
+
+        <!-- Search Engine Section -->
+        <section class="dashboard-card search-section">
+            <div class="section-header">
+                <h2>SEARCH ENGINE</h2>
+                <p>Find a Student • Enter a roll number to perform Binary Search.</p>
+            </div>
+            
+            <form id="search-form" class="search-form" onsubmit="handleSearch(event)">
+                <div class="input-group">
+                    <label for="roll-input" class="input-label">Student Roll Number</label>
+                    <div class="input-wrapper">
+                        <input type="number" id="roll-input" placeholder="e.g. 104" autocomplete="off" min="1" required>
+                        <button type="submit" id="search-btn" class="btn btn-primary">
+                            SEARCH →
+                        </button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="quick-search">
+                <span class="quick-label">Quick Search:</span>
+                <div class="quick-buttons">
+                    <button type="button" class="quick-btn" onclick="quickSearch(104)">104</button>
+                    <button type="button" class="quick-btn" onclick="quickSearch(125)">125</button>
+                    <button type="button" class="quick-btn" onclick="quickSearch(150)">150</button>
+                    <button type="button" class="quick-btn" onclick="quickSearch(999)">999</button>
+                </div>
+            </div>
+
+            <!-- Error Banner -->
+            <div id="error-alert" class="alert alert-error" style="display: none;">
+                <span id="error-text"></span>
+            </div>
+        </section>
+
+        <!-- Search Result & Details Section -->
+        <section id="result-section" class="result-section" style="display: none;">
+            <!-- Result Card injected via JS -->
+        </section>
+
+        <!-- Binary Search Visualization Trace Section -->
+        <section id="trace-section" class="dashboard-card trace-section" style="display: none;">
+            <div class="section-header border-bottom">
+                <div class="header-flex">
+                    <div>
+                        <h2>BINARY SEARCH TRACE</h2>
+                        <p>Step-by-step algorithm execution breakdown</p>
+                    </div>
+                    <div id="comparison-badge" class="badge badge-info">
+                        0 comparisons
+                    </div>
+                </div>
+            </div>
+            
+            <div id="steps-container" class="steps-grid">
+                <!-- Steps injected via JS -->
+            </div>
+        </section>
+
+        <!-- Algorithm Comparison Section -->
+        <section class="dashboard-card comparison-section">
+            <div class="section-header">
+                <div class="header-flex">
+                    <div>
+                        <h2>DAA ANALYSIS</h2>
+                        <p>Linear Search vs Binary Search comparison for efficiency analysis</p>
+                    </div>
+                    <button id="compare-btn" type="button" class="btn btn-secondary" onclick="handleCompare()">
+                        COMPARE ALGORITHMS
+                    </button>
+                </div>
+            </div>
+
+            <div id="comparison-results" class="comparison-grid" style="display: none;">
+                <div class="comparison-card card-binary">
+                    <div class="comp-badge">BINARY SEARCH</div>
+                    <div class="comp-metric">
+                        <span id="binary-count" class="comp-number">0</span>
+                        <span class="comp-unit">comparisons</span>
+                    </div>
+                    <div class="comp-footer">
+                        Time Complexity: <strong>O(log n)</strong>
+                    </div>
+                </div>
+
+                <div class="comparison-card card-linear">
+                    <div class="comp-badge">LINEAR SEARCH</div>
+                    <div class="comp-metric">
+                        <span id="linear-count" class="comp-number">0</span>
+                        <span class="comp-unit">comparisons</span>
+                    </div>
+                    <div class="comp-footer">
+                        Time Complexity: <strong>O(n)</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>Design & Analysis of Algorithms Mini-Project • Department of Computer Science & Engineering</p>
+        </footer>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

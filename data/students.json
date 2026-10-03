@@ -1,0 +1,352 @@
+[
+  {
+    "roll_no": 101,
+    "name": "Aarav Sharma",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "aarav.sharma@example.com"
+  },
+  {
+    "roll_no": 102,
+    "name": "Ananya Verma",
+    "branch": "ECE",
+    "year": "2nd Year",
+    "email": "ananya.v@example.com"
+  },
+  {
+    "roll_no": 103,
+    "name": "Rohan Patel",
+    "branch": "AIML",
+    "year": "3rd Year",
+    "email": "rohan.patel@example.com"
+  },
+  {
+    "roll_no": 104,
+    "name": "Sneha Rao",
+    "branch": "IT",
+    "year": "3rd Year",
+    "email": "sneha@example.com"
+  },
+  {
+    "roll_no": 105,
+    "name": "Vikram Singh",
+    "branch": "EEE",
+    "year": "4th Year",
+    "email": "vikram.s@example.com"
+  },
+  {
+    "roll_no": 106,
+    "name": "Priya Nambiar",
+    "branch": "CSE",
+    "year": "2nd Year",
+    "email": "priya.n@example.com"
+  },
+  {
+    "roll_no": 107,
+    "name": "Aditya Kulkarni",
+    "branch": "AIML",
+    "year": "1st Year",
+    "email": "aditya.k@example.com"
+  },
+  {
+    "roll_no": 108,
+    "name": "Kavya Reddy",
+    "branch": "ECE",
+    "year": "3rd Year",
+    "email": "kavya.r@example.com"
+  },
+  {
+    "roll_no": 109,
+    "name": "Rahul Deshmukh",
+    "branch": "IT",
+    "year": "4th Year",
+    "email": "rahul.d@example.com"
+  },
+  {
+    "roll_no": 110,
+    "name": "Meera Joshi",
+    "branch": "CSE",
+    "year": "2nd Year",
+    "email": "meera.j@example.com"
+  },
+  {
+    "roll_no": 111,
+    "name": "Siddharth Nair",
+    "branch": "EEE",
+    "year": "3rd Year",
+    "email": "siddharth.n@example.com"
+  },
+  {
+    "roll_no": 112,
+    "name": "Ishita Gupta",
+    "branch": "AIML",
+    "year": "2nd Year",
+    "email": "ishita.g@example.com"
+  },
+  {
+    "roll_no": 113,
+    "name": "Karthik Iyer",
+    "branch": "ECE",
+    "year": "4th Year",
+    "email": "karthik.i@example.com"
+  },
+  {
+    "roll_no": 114,
+    "name": "Pooja Hegde",
+    "branch": "IT",
+    "year": "1st Year",
+    "email": "pooja.h@example.com"
+  },
+  {
+    "roll_no": 115,
+    "name": "Devansh Bhat",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "devansh.b@example.com"
+  },
+  {
+    "roll_no": 116,
+    "name": "Riya Saxena",
+    "branch": "AIML",
+    "year": "2nd Year",
+    "email": "riya.s@example.com"
+  },
+  {
+    "roll_no": 117,
+    "name": "Varun Banerjee",
+    "branch": "EEE",
+    "year": "3rd Year",
+    "email": "varun.b@example.com"
+  },
+  {
+    "roll_no": 118,
+    "name": "Tanvi Menon",
+    "branch": "ECE",
+    "year": "1st Year",
+    "email": "tanvi.m@example.com"
+  },
+  {
+    "roll_no": 119,
+    "name": "Yash Vardhan",
+    "branch": "IT",
+    "year": "4th Year",
+    "email": "yash.v@example.com"
+  },
+  {
+    "roll_no": 120,
+    "name": "Neha Agarwal",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "neha.a@example.com"
+  },
+  {
+    "roll_no": 121,
+    "name": "Arjun Roy",
+    "branch": "AIML",
+    "year": "2nd Year",
+    "email": "arjun.r@example.com"
+  },
+  {
+    "roll_no": 122,
+    "name": "Shreya Pillai",
+    "branch": "ECE",
+    "year": "3rd Year",
+    "email": "shreya.p@example.com"
+  },
+  {
+    "roll_no": 123,
+    "name": "Karan Malhotra",
+    "branch": "EEE",
+    "year": "4th Year",
+    "email": "karan.m@example.com"
+  },
+  {
+    "roll_no": 124,
+    "name": "Divya Choudhury",
+    "branch": "IT",
+    "year": "2nd Year",
+    "email": "divya.c@example.com"
+  },
+  {
+    "roll_no": 125,
+    "name": "Manish Pandey",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "manish.p@example.com"
+  },
+  {
+    "roll_no": 126,
+    "name": "Avani Mehta",
+    "branch": "AIML",
+    "year": "1st Year",
+    "email": "avani.m@example.com"
+  },
+  {
+    "roll_no": 127,
+    "name": "Harsh Tandon",
+    "branch": "ECE",
+    "year": "4th Year",
+    "email": "harsh.t@example.com"
+  },
+  {
+    "roll_no": 128,
+    "name": "Bhavna Mishra",
+    "branch": "EEE",
+    "year": "2nd Year",
+    "email": "bhavna.m@example.com"
+  },
+  {
+    "roll_no": 129,
+    "name": "Gaurav Bhattacharya",
+    "branch": "IT",
+    "year": "3rd Year",
+    "email": "gaurav.b@example.com"
+  },
+  {
+    "roll_no": 130,
+    "name": "Deepika Shetty",
+    "branch": "CSE",
+    "year": "4th Year",
+    "email": "deepika.s@example.com"
+  },
+  {
+    "roll_no": 131,
+    "name": "Abhishek Sen",
+    "branch": "AIML",
+    "year": "2nd Year",
+    "email": "abhishek.s@example.com"
+  },
+  {
+    "roll_no": 132,
+    "name": "Prachi Datar",
+    "branch": "ECE",
+    "year": "3rd Year",
+    "email": "prachi.d@example.com"
+  },
+  {
+    "roll_no": 133,
+    "name": "Nikhil Kamath",
+    "branch": "EEE",
+    "year": "1st Year",
+    "email": "nikhil.k@example.com"
+  },
+  {
+    "roll_no": 134,
+    "name": "Sanya Kapoor",
+    "branch": "IT",
+    "year": "4th Year",
+    "email": "sanya.k@example.com"
+  },
+  {
+    "roll_no": 135,
+    "name": "Tarun Kapoor",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "tarun.k@example.com"
+  },
+  {
+    "roll_no": 136,
+    "name": "Aakanksha Swaminathan",
+    "branch": "AIML",
+    "year": "2nd Year",
+    "email": "aakanksha.s@example.com"
+  },
+  {
+    "roll_no": 137,
+    "name": "Rishabh Tripathi",
+    "branch": "ECE",
+    "year": "3rd Year",
+    "email": "rishabh.t@example.com"
+  },
+  {
+    "roll_no": 138,
+    "name": "Vandana Mahajan",
+    "branch": "EEE",
+    "year": "4th Year",
+    "email": "vandana.m@example.com"
+  },
+  {
+    "roll_no": 139,
+    "name": "Alok Kumar",
+    "branch": "IT",
+    "year": "2nd Year",
+    "email": "alok.k@example.com"
+  },
+  {
+    "roll_no": 140,
+    "name": "Simran Johar",
+    "branch": "CSE",
+    "year": "1st Year",
+    "email": "simran.j@example.com"
+  },
+  {
+    "roll_no": 141,
+    "name": "Kushal Dave",
+    "branch": "AIML",
+    "year": "3rd Year",
+    "email": "kushal.d@example.com"
+  },
+  {
+    "roll_no": 142,
+    "name": "Trisha Shenoy",
+    "branch": "ECE",
+    "year": "4th Year",
+    "email": "trisha.s@example.com"
+  },
+  {
+    "roll_no": 143,
+    "name": "Mohit Prasad",
+    "branch": "EEE",
+    "year": "2nd Year",
+    "email": "mohit.p@example.com"
+  },
+  {
+    "roll_no": 144,
+    "name": "Nandini Raghunath",
+    "branch": "IT",
+    "year": "3rd Year",
+    "email": "nandini.r@example.com"
+  },
+  {
+    "roll_no": 145,
+    "name": "Chirag Dutta",
+    "branch": "CSE",
+    "year": "4th Year",
+    "email": "chirag.d@example.com"
+  },
+  {
+    "roll_no": 146,
+    "name": "Pallavi Sonawane",
+    "branch": "AIML",
+    "year": "1st Year",
+    "email": "pallavi.s@example.com"
+  },
+  {
+    "roll_no": 147,
+    "name": "Siddhesh Shinde",
+    "branch": "ECE",
+    "year": "3rd Year",
+    "email": "siddhesh.s@example.com"
+  },
+  {
+    "roll_no": 148,
+    "name": "Swati Sundaram",
+    "branch": "EEE",
+    "year": "2nd Year",
+    "email": "swati.s@example.com"
+  },
+  {
+    "roll_no": 149,
+    "name": "Utkarsh Srivastava",
+    "branch": "IT",
+    "year": "4th Year",
+    "email": "utkarsh.s@example.com"
+  },
+  {
+    "roll_no": 150,
+    "name": "Zoya Khan",
+    "branch": "CSE",
+    "year": "3rd Year",
+    "email": "zoya.k@example.com"
+  }
+]
